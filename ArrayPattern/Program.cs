@@ -67,7 +67,7 @@ namespace ArrayPattern_P_Q_R
                     {
                         if(origin[k] == resultArray[loopcount] && 
                                    i != j && 
-                                   i!=k && 
+                                   i != k && 
                                    j != k)
                         {
                             Console.WriteLine("***Found:  " + origin[k].ToString() + " = " + origin[i].ToString() + " + " + origin[j].ToString() + "***");
